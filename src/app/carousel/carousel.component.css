@@ -1,0 +1,5 @@
+div {
+  background-image: url("src/assets/images/wayfarer.jpg");
+  background-size: contain;
+  height:600px;
+}
