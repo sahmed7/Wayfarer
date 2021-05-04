@@ -1,0 +1,47 @@
+#landing-top-half{
+  background-color: chartreuse;
+  height:60vh;
+}
+
+#landing-bottom-half{
+  background-color: aqua;
+  height: 40vh;
+}
+
+#banner{
+  background-color: red;
+  height: 10vh;
+}
+
+#header{
+  background-color: blue;
+  height: 10vh;
+  text-align: center;
+}
+
+#flexbox-container {
+  display:flex;
+  justify-content: space-evenly;
+  background-color: dimgrey;
+}
+
+
+.topic{
+  background-color: blueviolet;
+  height: 35vh;
+  padding: 10px;
+  margin: 10px;
+}
+
+#topic-1{
+
+
+}
+
+#topic-2{
+
+}
+
+#topic-3{
+
+}
