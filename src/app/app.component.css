@@ -5,11 +5,14 @@
 }
 
 #header{
-  background-color: #fcfcfc;
+  background-color: #5b5847;
   height: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   text-align: center;
   font-size: 2.5em;
-  color: #5d9cde;
+
 }
 
 #flexbox-container {
@@ -35,7 +38,6 @@
 #topic-1{
   text-align: center;
   color: #aca8a8;
-
 }
 
 #topic-2{
