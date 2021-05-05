@@ -1,0 +1,51 @@
+
+#landing-bottom-half{
+  background-color: #46008b;
+  height: 400px;
+}
+
+#header{
+  background-color: #5b5847;
+  height: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 2.5em;
+
+}
+
+#flexbox-container {
+  display:flex;
+  justify-content: space-evenly;
+  background-color: #0c4e88;
+  height: 100%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+
+}
+
+
+.topic{
+  background-color: #5b5847;
+
+  height: 100%;
+  width: 30%;
+
+
+}
+
+#topic-1{
+  text-align: center;
+  color: #aca8a8;
+}
+
+#topic-2{
+  text-align: center;
+  color: #aca8a8;
+}
+
+#topic-3{
+  text-align: center;
+  color: #aca8a8;
+}
