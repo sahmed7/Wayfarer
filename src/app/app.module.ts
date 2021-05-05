@@ -8,6 +8,7 @@ import { CarouselComponent } from './carousel/carousel.component';
 import { CitiesComponent } from './cities/cities.component';
 import { CityComponent } from './city/city.component';
 import { WayfarerInfoComponent } from './wayfarer-info/wayfarer-info.component';
+import { PostComponent } from './post/post.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { WayfarerInfoComponent } from './wayfarer-info/wayfarer-info.component';
     CarouselComponent,
     CitiesComponent,
     CityComponent,
-    WayfarerInfoComponent
+    WayfarerInfoComponent,
+    PostComponent
   ],
   imports: [
     BrowserModule,
