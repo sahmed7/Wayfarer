@@ -1,6 +1,6 @@
 #left {
   background-color: chartreuse;
-  height:400px;
+  height: 600px;
   position: relative;
   top: 0; /* Stay at the top */
   left: 0;
@@ -16,7 +16,7 @@
 
 #right {
   background-color: blueviolet;
-  height:400px
+  height: 600px;
 }
 
 #panel {
