@@ -5,8 +5,13 @@
   top: 0; /* Stay at the top */
   left: 0;
   overflow-x: hidden; /* Disable horizontal scroll */
-
-
+}
+.city-block img {
+  display: block;
+  width: 150px;
+  height: 100px;
+  margin: 10px 0 10px 20px;
+  border: 1px solid black;
 }
 
 #right {
@@ -19,14 +24,13 @@
   height:400px;
 }
 
-
 #cool {
 
 }
 
 
-#section1 {padding-top:50px;height:500px;color: #fff; background-color: #1E88E5;}
-#section2 {padding-top:50px;height:500px;color: #fff; background-color: #673ab7;}
+#section1 {padding-top:10px;height:500px;color: #fff; background-color: #1E88E5;}
+#section2 {padding-top:10px;height:500px;color: #fff; background-color: #673ab7;}
 #section3 {padding-top:50px;height:500px;color: #fff; background-color: #ff9800;}
 #section41 {padding-top:50px;height:500px;color: #fff; background-color: #00bcd4;}
 #section42 {padding-top:50px;height:500px;color: #fff; background-color: #009688;}
