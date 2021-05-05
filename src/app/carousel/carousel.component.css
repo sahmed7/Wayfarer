@@ -7,12 +7,18 @@ div {
 .carousel-inner {
   background-color: darkblue;
 
-
 }
+
+.item img {
+  height: 500px;
+  width: 100%
+}
+
+
 #flexbox-container {
 
 }
 
-#item active{
+/*#item active{*/
 
-}
+/*}*/
