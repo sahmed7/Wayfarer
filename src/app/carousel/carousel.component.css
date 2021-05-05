@@ -1,5 +1,18 @@
 div {
-  background-image: url("src/assets/images/wayfarer.jpg");
+
   background-size: contain;
-  height:600px;
+  height:100%;
+
+}
+.carousel-inner {
+  background-color: darkblue;
+
+
+}
+#flexbox-container {
+
+}
+
+#item active{
+
 }
