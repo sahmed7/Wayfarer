@@ -1,19 +1,21 @@
 
 #landing-bottom-half{
-  background-color: aqua;
+  background-color: #46008b;
   height: 400px;
 }
 
 #header{
-  background-color: blue;
+  background-color: #fcfcfc;
   height: 20%;
   text-align: center;
+  font-size: 2.5em;
+  color: #5d9cde;
 }
 
 #flexbox-container {
   display:flex;
   justify-content: space-evenly;
-  background-color: dimgrey;
+  background-color: #0c4e88;
   height: 100%;
   padding-top: 5%;
   padding-bottom: 5%;
@@ -22,7 +24,7 @@
 
 
 .topic{
-  background-color: blueviolet;
+  background-color: #5b5847;
 
   height: 100%;
   width: 30%;
@@ -31,14 +33,17 @@
 }
 
 #topic-1{
-
+  text-align: center;
+  color: #aca8a8;
 
 }
 
 #topic-2{
-
+  text-align: center;
+  color: #aca8a8;
 }
 
 #topic-3{
-
+  text-align: center;
+  color: #aca8a8;
 }
