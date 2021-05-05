@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import {POSTS} from './city/posts';
+import {CityInfo} from './city/cityInfo';
 
 @Component({
   selector: 'app-root',
@@ -8,5 +8,5 @@ import {POSTS} from './city/posts';
 })
 export class AppComponent {
   title = 'Wayfarer';
-  posts = POSTS;
+  cityInfo = CityInfo;
 }
