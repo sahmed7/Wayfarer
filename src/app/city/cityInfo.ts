@@ -54,5 +54,19 @@ export const CityInfo = [
       title: 'Closed Circuit!',
       description: 'I finally got to test out my fully modded ride! The engine really kicks into gear!'
     }]
+  },
+  {
+    id: 5,
+    name: 'Gibraltar',
+    imgUrl: '../assets/images/gibraltar.jpeg',
+    posts: [{
+      creator: 'Flanders',
+      title: 'Coastal Baby!',
+      description: 'This area always brings out the best in me when I am outside!'
+    }, {
+      creator: 'Apu',
+      title: 'New store location!',
+      description: 'I can totally imagine opening my 2nd convenient store here! The locals are so nice!'
+    }]
   }
 ];

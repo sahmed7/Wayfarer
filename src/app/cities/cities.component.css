@@ -1,5 +1,5 @@
 #left {
-  height: 600px;
+  height: 920px;
   position: relative;
   overflow-x: hidden;
   border-bottom: black solid 2px;
@@ -28,7 +28,7 @@ a:hover {
 
 #right {
   background-color: lightgray;
-  height: 600px;
+  height: 920px;
   border-bottom: black solid 2px;
 }
 
