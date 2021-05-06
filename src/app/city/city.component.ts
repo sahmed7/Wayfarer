@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import {CityInfo} from './cityInfo';
 import {ActivatedRoute} from '@angular/router';
+import { HttpClient } from '@angular/common/http';
 
 @Component({
   selector: 'app-city',
@@ -19,6 +20,12 @@ export class CityComponent implements OnInit {
         return city.id === parseInt(params.get('id'), 10);
       });
     });
+
+    // this.findWeather(this.city.name);
+    // console.log(this.city.name);
   }
+
+
+
 
 }
