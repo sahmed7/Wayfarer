@@ -5,6 +5,7 @@
 
 #header{
   background-color: #5b5847;
+  color: antiquewhite;
   height: 20%;
   display: flex;
   justify-content: center;
@@ -36,17 +37,17 @@
 
 #topic-1{
   text-align: center;
-  color: #aca8a8;
+  color: antiquewhite;
 }
 
 #topic-2{
   text-align: center;
-  color: #aca8a8;
+  color: antiquewhite;
 }
 
 #topic-3{
   text-align: center;
-  color: #aca8a8;
+  color: antiquewhite;
 }
 
 h1{

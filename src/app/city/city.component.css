@@ -3,6 +3,7 @@
   background-color: grey;
   border-radius: 20px;
   height: 410px;
+  border: 2px solid black;
 }
 .city-component-card img {
   display: block;
@@ -15,11 +16,12 @@
 
 .posts-component-card {
   border-radius: 20px;
-  background-color: red;
+  background-color: grey;
   height: 200px;
   /*width: 800px;*/
   display: flex;
   align-items: center;
+  border: 2px solid black;
 }
 
 .posts-component-card img {
@@ -42,3 +44,19 @@
   width: 600px;
   text-align: left;
 }
+
+a, h1, p {
+  color: antiquewhite;
+}
+
+#indPostTitle {
+  text-decoration: none;
+}
+#indPostTitle:hover {
+  color: #aca8a8;
+}
+
+#postTitle {
+  color: black;
+}
+
