@@ -3,6 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 import {CarouselComponent} from './carousel/carousel.component';
 import {CitiesComponent} from './cities/cities.component';
 import {CityComponent} from './city/city.component';
+import {PostComponent} from './post/post.component';
 
 const routes: Routes = [{
   path: '',
@@ -15,6 +16,10 @@ const routes: Routes = [{
       {
         path: ':id',
         component: CityComponent
+      },
+      {
+        path: ':id/posts/:postId',
+        component: PostComponent
       }
     ]
   }
