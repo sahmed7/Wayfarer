@@ -1,38 +1,54 @@
 #left {
-  background-color: chartreuse;
   height: 600px;
   position: relative;
-  top: 0; /* Stay at the top */
-  left: 0;
-  overflow-x: hidden; /* Disable horizontal scroll */
+  overflow-x: hidden;
+  border-bottom: black solid 2px;
 }
 .city-block img {
   display: block;
   width: 150px;
   height: 100px;
   margin: 10px 0 10px 20px;
-  border: 1px solid black;
+  border: 2px solid black;
 }
 
+h1{
+  margin: 10px 0 10px 20px;
+}
+
+a{
+  color: #3e3939;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #aca8a8;
+}
+
+
 #right {
-  background-color: blueviolet;
+  background-color: lightgray;
   height: 600px;
+  border-bottom: black solid 2px;
 }
 
 #panel {
-  background-color: red;
-  height:400px;
-}
-
-#cool {
+  background-color: #0c4e88;
+  width:99%;
 
 }
 
 
-#section1 {padding-top:10px;height:500px;color: #fff; background-color: #1E88E5;}
-#section2 {padding-top:10px;height:500px;color: #fff; background-color: #673ab7;}
-#section3 {padding-top:50px;height:500px;color: #fff; background-color: #ff9800;}
-#section41 {padding-top:50px;height:500px;color: #fff; background-color: #00bcd4;}
-#section42 {padding-top:50px;height:500px;color: #fff; background-color: #009688;}
+
+#section1 {
+  padding-top:10px;
+  height:200px;
+  background-color: #5b5847;
+  margin:10px;
+  border-radius: 20px;
+
+}
+/*#section2 {padding-top:10px;height:500px;color: #fff; background-color: #673ab7;}*/
+
 
 

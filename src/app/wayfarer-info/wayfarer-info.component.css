@@ -1,6 +1,5 @@
 
 #landing-bottom-half{
-  background-color: #46008b;
   height: 400px;
 }
 
@@ -28,11 +27,11 @@
 
 .topic{
   background-color: #5b5847;
-
+  border-radius: 20px;
   height: 100%;
   width: 30%;
-
-
+  padding: 10px;
+  text-align: center;
 }
 
 #topic-1{
@@ -48,4 +47,8 @@
 #topic-3{
   text-align: center;
   color: #aca8a8;
+}
+
+h1{
+  padding: 10px 0px 25px 0px;
 }
