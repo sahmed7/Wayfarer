@@ -1,3 +1,6 @@
-<p>{{city}}weather works!</p>
-<h1>
+<section *ngIf="weather">
+  <h3>Weather:</h3>
+  <p>Current forecast: {{weather.weather[0].description}}.</p>
+  <p>There's a high of {{weather.main.temp_max}} degrees and a low of {{weather.main.temp_min}} degrees.</p>
+</section>
 

@@ -21,12 +21,11 @@ export class WeatherComponent implements OnInit {
   ngOnInit(): void {
     // console.log('this is city', this.city);
     this.findWeather(this.city);
-    console.log('this is this weather', this.weather);
   }
 
   findWeather(city): any{
     this.http.get(`http://api.openweathermap.org/data/2.5/weather?q=${this.city}&appid=052f26926ae9784c2d677ca7bc5dec98&&units=imperial`)
-        .subscribe(response => console.log(response));
+        .subscribe(response => this.weather = response);
 }
 
 
