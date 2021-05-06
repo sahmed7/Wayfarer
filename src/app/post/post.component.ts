@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import {ActivatedRoute} from '@angular/router';
+import {CityInfo} from '../city/cityInfo';
 
 @Component({
   selector: 'app-post',
@@ -7,9 +9,20 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PostComponent implements OnInit {
 
-  constructor() { }
+  city: any;
+  cities: any = CityInfo;
+  post: any;
+  constructor(private activeRoute: ActivatedRoute) { }
 
   ngOnInit(): void {
+    this.activeRoute.paramMap
+      .subscribe(params => {
+        const postId = parseInt(params.get('postId'), 10);
+        this.city = CityInfo.find(city => {
+          return city.id === parseInt(params.get('id'), 10);
+        });
+        this.post = this.city.posts[postId];
+      });
   }
 
 }
