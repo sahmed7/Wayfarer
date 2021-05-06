@@ -1,4 +1,36 @@
 nav {
   background-color: #5b5847;
-  height: 50px;
+  border-radius: 0 !important;
+  margin: 0px;
+  padding: 0px;
+  font-size: larger;
+}
+
+.navbar-inverse .navbar-nav>.active>a,
+.navbar-inverse .navbar-nav>.active>a:focus,
+.navbar-inverse .navbar-nav>.active>a:hover {
+  color: #fff;
+  background-color: #5b5847;
+}
+
+button {
+  margin-left: 10px;
+}
+
+input {
+  background-color: #aca8a8;
+  border: none;
+  caret-color: white;
+  margin-left: 10px;
+}
+
+input, select, textarea{
+  color: white;
+}
+
+
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #5b5847;
+  opacity: 1; /* Firefox */
 }
