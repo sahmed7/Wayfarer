@@ -14,10 +14,11 @@
 
 h1{
   margin: 10px 0 10px 20px;
+
 }
 
 a{
-  color: antiquewhite;
+  color: #5d576b;
   text-decoration: none;
 }
 
@@ -27,13 +28,13 @@ a:hover {
 
 
 #right {
-  background-color: lightgray;
+  background-color: #E6EBE0;
   height: 920px;
   border-bottom: black solid 2px;
 }
 
 #panel {
-  background-color: #0c4e88;
+  background-color: #ED6A5A;
   width:99%;
 
 }
@@ -43,10 +44,11 @@ a:hover {
 #section1 {
   padding-top:10px;
   height:200px;
-  background-color: #5b5847;
+  background-color: #9BC1BC;
   margin:10px;
   border-radius: 20px;
   border: 2px solid black;
+
 
 }
 /*#section2 {padding-top:10px;height:500px;color: #fff; background-color: #673ab7;}*/

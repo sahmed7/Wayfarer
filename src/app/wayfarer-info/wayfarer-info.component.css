@@ -4,7 +4,7 @@
 }
 
 #header{
-  background-color: #5b5847;
+  background-color: #ED6A5A;
   color: antiquewhite;
   height: 20%;
   display: flex;
@@ -18,7 +18,7 @@
 #flexbox-container {
   display:flex;
   justify-content: space-evenly;
-  background-color: #0c4e88;
+  background-color: #E6EBE0;
   height: 100%;
   padding-top: 5%;
   padding-bottom: 5%;
@@ -27,7 +27,7 @@
 
 
 .topic{
-  background-color: #5b5847;
+  background-color: #ED6A5A;
   border-radius: 20px;
   height: 100%;
   width: 30%;
