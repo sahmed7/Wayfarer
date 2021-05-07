@@ -1,27 +1,49 @@
 nav {
-  background-color: #5b5847;
+  background-color: #ED6A5A;
   border-radius: 0 !important;
   margin: 0px;
   padding: 0px;
   font-size: larger;
+  font-family: Verdana;
 }
+
+a:link { /* Essentially means a[href], or that the link actually goes somewhere */
+  color: blue;
+}
+a:visited {
+  color: #dedbde;
+}
+a:hover {
+  color: green;
+}
+a:active {
+  color: red;
+}
+.navbar-brand>.active>a,
+.navbar-brand>.active>a:focus{
+  color: #ffffff;
+  background-color:#abcf48;
+}
+
 
 .navbar-inverse .navbar-nav>.active>a,
 .navbar-inverse .navbar-nav>.active>a:focus{
   color: #fff;
-  background-color: #5b5847;
+  background-color: #ea4949;
 }
 .navbar-inverse .navbar-nav>.active>a:hover {
   color: #fff;
-  background-color: grey;
+  background-color: #cf4848;
 }
 
 button {
   margin-left: 10px;
+  background-color: #ea4949;
+  border: none;
 }
 
 input {
-  background-color: #aca8a8;
+  background-color: #e7a4a4;
   border: none;
   caret-color: white;
   margin-left: 10px;
