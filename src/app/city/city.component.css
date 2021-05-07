@@ -8,10 +8,8 @@
 .city-component-card img {
   display: block;
   width: 300px;
-
   margin: 10px 0px 10px 55px;
   border: 1px solid black;
-
 }
 
 .posts-component-card {
